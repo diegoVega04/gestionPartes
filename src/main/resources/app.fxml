@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="630.0" prefWidth="990.0" xmlns="http://javafx.com/javafx/22" xmlns:fx="http://javafx.com/fxml/1"
+    fx:controller="diego.gestionpartes.Controllers.AppController">
+
+   <children>
+      <TableView fx:id="tabla_partes" layoutX="46.0" layoutY="131.0" prefHeight="425.0" prefWidth="899.0">
+        <columns>
+          <TableColumn fx:id="col_expediente" prefWidth="86.0" text="Expediente" />
+          <TableColumn fx:id="col_alumno" prefWidth="151.0" text="Alumno" />
+            <TableColumn fx:id="col_grupo" prefWidth="83.0" text="Grupo" />
+            <TableColumn fx:id="col_profesor" prefWidth="149.0" text="Profesor" />
+            <TableColumn fx:id="col_fecha" prefWidth="118.0" text="Fecha" />
+            <TableColumn fx:id="col_descripcion" prefWidth="177.0" text="Descripcion" />
+            <TableColumn fx:id="col_sancion" prefWidth="134.0" text="Sancion" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
